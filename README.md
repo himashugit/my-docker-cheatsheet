@@ -70,7 +70,7 @@
 
 ### Shell Script to Install Docker on Centos
 
-```
+```javascript
 #!/bin/bash
 #Get Docker Engine - Community for CentOS + docker compose
 set -e
@@ -94,7 +94,7 @@ docker -v
 ```
 
 ### Shell Script to Install the latest version of docker-compose
-```
+```javascript
 #!/bin/bash
 # get latest docker compose released tag
 COMPOSE_VERSION=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4)
